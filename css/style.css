@@ -1,6 +1,31 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 175%;
+
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+a:link { color:#0070BB; } /* unvisited */
+a:visited { color:#ff0000; } /* visited */
+a:hover { color:#00ff00; } /* mouse over */
+a:active { color:#0070BD; } /* selected */
+
+h1 {
+  font-size: 2em; /* 32px */
+  line-height: 200%;
+
+}
+
+p {
+  font-size: 100%; /* 16px */
+  line-height: 150%;
 }
 
 nav {
